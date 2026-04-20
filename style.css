@@ -344,7 +344,7 @@ footer nav ul li a:hover {
     }    
 }
 /* MEDIA QUERY (large) */
-@media (min-width: 900px) {
+@media (mn-width: 900px) {
     header img {
         width:180px;
     }
@@ -352,7 +352,7 @@ footer nav ul li a:hover {
         font-size: 3.2rem;
     }
     main{
-        min-width: 1200px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 0 2rem;
     }
