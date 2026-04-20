@@ -372,6 +372,37 @@ footer nav ul li a:hover {
     #gallery figure:nth-child(5), #gallery figure:nth-child(6) {
         grid-column: auto;
   }
-
 }
 /* MEDIA QUERY (xl) */
+@media (mid-width:1200px){
+    header img{
+        width:200px;
+    }
+    header h1{
+        font-size: 3.8rem;
+    }
+    main{
+       max-width: 1200px;
+       margin: 0 auto;
+       padding: 0 3rem; 
+
+    }
+    section h2{
+        font-size: 2.4rem;
+    }
+    #gallery{
+        grid-template-columns: repeat(5, 1fr);
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #gallery h2, #gallery > p{
+        grid-column: 1 / -1;
+    }
+    #gallery figure img{
+        height: 160px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
