@@ -344,7 +344,7 @@ footer nav ul li a:hover {
     }    
 }
 /* MEDIA QUERY (large) */
-@media (mn-width: 900px) {
+@media (min-width: 900px) {
     header img {
         width:180px;
     }
@@ -380,7 +380,7 @@ footer nav ul li a:hover {
   }
 }
 /* MEDIA QUERY (xl) */
-@media (max-width: 1200px){
+@media (min-width: 1200px){
     header img{
         width:200px;
     }
